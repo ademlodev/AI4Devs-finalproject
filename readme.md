@@ -23,6 +23,8 @@ Truequealo
 
 ### **0.3. Descripción breve del proyecto:**
 
+Truequealo es una plataforma digital diseñada para facilitar el intercambio directo de bienes y servicios entre personas, sin necesidad de usar dinero. Utiliza un sistema inteligente de coincidencias, perfiles confiables y comunicación integrada para revivir el trueque como forma sostenible, justa y colaborativa de economía local y circular.
+
 Lean canvas:
 
 Lean-canvas.drawio
@@ -42,14 +44,26 @@ Lean-canvas.drawio
 > Describe en detalle los siguientes aspectos del producto:
 
 Fichero system-design.md
+Fichero system-design.md o projectbrief.md
 
 ### **1.1. Objetivo:**
 
 > Propósito del producto. Qué valor aporta, qué soluciona, y para quién.
+> Facilitar el trueque de bienes y servicios entre usuarios, promoviendo la economía circular y la confianza entre personas a través de tecnología, reputación y geolocalización.
 
 ### **1.2. Características y funcionalidades principales:**
 
 > Enumera y describe las características y funcionalidades específicas que tiene el producto para satisfacer las necesidades identificadas.
+
+- Clasificación de productos y servicios por categorías y subcategorías.
+- Algoritmo de coincidencias (match) que conecta necesidades y ofertas.
+- Recomendaciones personalizadas según intereses, historial y ubicación.
+- Chat integrado para negociación directa entre usuarios.
+- Sistema de reputación y comentarios para construir confianza.
+- Verificación de identidad y niveles de fiabilidad.
+- Interfaz mobile-first, intuitiva y accesible.
+- Geolocalización y mapa interactivo para promover intercambios locales.
+- Moderación y mecanismos de seguridad para proteger a los usuarios.
 
 ### **1.3. Diseño y experiencia de usuario:**
 
@@ -67,19 +81,69 @@ Fichero system-design.md
 
 > Usa el formato que consideres más adecuado para representar los componentes principales de la aplicación y las tecnologías utilizadas. Explica si sigue algún patrón predefinido, justifica por qué se ha elegido esta arquitectura, y destaca los beneficios principales que aportan al proyecto y justifican su uso, así como sacrificios o déficits que implica.
 
-> Usa el formato que consideres más adecuado para representar los componentes principales de la aplicación y las tecnologías utilizadas. Explica si sigue algún patrón predefinido, justifica por qué se ha elegido esta arquitectura, y destaca los beneficios principales que aportan al proyecto y justifican su uso, así como sacrificios o déficits que implica.
+Los componentes estan representados en docs/Diagrama infraestructura.png Se usa esta arquitectura para ser una app web eficiente. Posteriormente posibilidad de migrara a microservicios.
 
 ### **2.2. Descripción de componentes principales:**
 
 > Describe los componentes más importantes, incluyendo la tecnología utilizada
 
+Prompt: teniendo en cuenta el @Diagrama infraestructura.png, describe los componentes principales de la arquitectura definida
+
+Se definen en el fichero [componentes_principales.md]
+
 ### **2.3. Descripción de alto nivel del proyecto y estructura de ficheros**
 
 > Representa la estructura del proyecto y explica brevemente el propósito de las carpetas principales, así como si obedece a algún patrón o arquitectura específica.
 
+Al generar el memory bank y crear la estructura del proyecto me genero esta estructura de carpetas como le habia indicado.
+
+## 📁 Estructura final del monorepo:
+
+```
+AI4Devs-finalproject-JGA/
+├── package.json (configuración de workspaces)
+├── tsconfig.base.json (configuración TypeScript compartida)
+├── readme.md (documentación principal)
+├── core/
+│   ├── package.json (Jest)
+│   ├── tsconfig.json
+│   ├── jest.config.js
+│   ├── README.md
+│   ├── application/
+│   ├── domain/
+│   └── __tests__/
+├── frontend/
+│   ├── package.json (Vite, React, Tailwind, Vitest)
+│   ├── tsconfig.json
+│   ├── vite.config.ts
+│   ├── vitest.config.ts
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── index.html
+│   ├── README.md
+│   └── src/
+│       ├── main.tsx
+│       ├── index.css
+│       ├── setupTests.ts
+│       └── pages/
+│           ├── Home.tsx
+│           └── Home.test.tsx
+└── backend/
+    ├── package.json (Express, Jest)
+    ├── tsconfig.json
+    ├── jest.config.js
+    ├── README.md
+    └── src/
+        ├── index.ts
+        └── __tests__/
+            └── index.test.ts
+```
+
 ### **2.4. Infraestructura y despliegue**
 
 > Detalla la infraestructura del proyecto, incluyendo un diagrama en el formato que creas conveniente, y explica el proceso de despliegue que se sigue
+
+La infraestructura del proyecto esta realizada en el fichero Diagrama infraestructura.png También se encuentra en el fichero diagrama_infraestructura.md
 
 ### **2.5. Seguridad**
 
@@ -123,7 +187,6 @@ Fichero system-design.md
 
 ## 6. Tickets de Trabajo
 
-> Documenta 3 de los tickets de trabajo principales del desarrollo, uno de backend, uno de frontend, y uno de bases de datos. Da todo el detalle requerido para desarrollar la tarea de inicio a fin teniendo en cuenta las buenas prácticas al respecto.
 > Documenta 3 de los tickets de trabajo principales del desarrollo, uno de backend, uno de frontend, y uno de bases de datos. Da todo el detalle requerido para desarrollar la tarea de inicio a fin teniendo en cuenta las buenas prácticas al respecto.
 
 **Ticket 1**
