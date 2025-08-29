@@ -159,6 +159,7 @@ generado con memory bank, identifica la seguridad de la api con JWT
 
 **Prompt 1:**
 
+Generación del modelo de datos e implementado en la carpeta prisma de monorepo backend. Chat con los prompts en el fichero 20250830_cursor_generate_datamodel.md
 **Prompt 2:**
 
 **Prompt 3:**
