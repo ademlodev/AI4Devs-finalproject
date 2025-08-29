@@ -81,13 +81,47 @@ teniendo en cuenta el @Diagrama infraestructura.png, describe los componentes pr
 ### **2.3. Descripción de alto nivel del proyecto y estructura de ficheros**
 
 **Prompt 1:**
-Con la creación del memory bank genera la estructura del proyecto
+Posteriormente y una vez generado el memory bank le indico el siguiente prompt donde me genera los monorepos react con la estructura definida en el fichero "progress.md"
 
-### 🏗️ **Arquitectura:**
+teniendo en cuenta @/memory-bank
 
-- **Frontend:** React + Vite + Tailwind CSS + Vitest
-- **Backend:** Express + TypeScript + Jest
-- **Core:** TypeScript + Jest (para lógica de negocio compartida)
+# Rol
+
+Eres un ingeniero de software especialista fullstack developer con React, Monorepo, Nodejs, Expressjs y Typescript
+
+# Especificaciones funcionales
+
+- Actualmente este es el directorio principal.
+- Te basaras en DDD y arquitectura hexagonal para separar lógica de negocio y lógica de dominio.
+- Necesito crear un proyecto que contenga un monorepo (workspaces) padre (todos con typescript) y este contenga tres subrepositorios con core, frontend, backend.
+
+- Core: va a contener todas las clases de dominio que puedan ser usadas desde el backend y el frontend.
+
+- Frontend: Va a ser un proyecto en React con ViteJs y una pantalla home. El proyecto contendra una estructura de arquitectura hexagonal y referenciara a librerias del proyecto padre.
+
+-Backend: Sera un proyecto API Rest realizado con Expressjs, Typescript y bbdd PostgreSQL. El proyecto contendra una estructura de arquitectura hexagonal y referenciara a librerias del proyecto padre
+
+- Será necesario que el proyecto frontend arranque y muestre la pantalla home de bienvenida.
+- Será necesario que el proyecto backend arranque con los siguientes endpoints base:
+
+- Versión de la api: lo cogera de la versión del package.json del subproyecto backend.
+
+# Especificaciones técnicas:
+
+- Te basaras en buenas practicas de desarrollo de aplicaciones web con testing
+- Usaras pilares como SOLID y DDD para el desarrollo.
+- Usaras como gestor de paquetes yarn.
+- Basaras tu estructura de carpetas en:
+- AI4Devs-finalproject-JGA
+  |- core
+  |- application
+  |- domain
+  |- frontend
+  |- backend
+- Incluye un fichero Readme en cada workspace y en el proyecto padre para indicar que hace cada proyecto y lo necesario para arrancarlo.
+  Indicame antes de empezar que has entendido todo y pregunta cualquier duda que te surja.
+
+A la hora de empezar a crear, comenzaras por el proyecto padre que contendrá las librerias que serán usadas por los subproyectos.
 
 **Prompt 2:**
 
@@ -104,6 +138,8 @@ Con la creación del memory bank genera la estructura del proyecto
 ### **2.5. Seguridad**
 
 **Prompt 1:**
+
+generado con memory bank, identifica la seguridad de la api con JWT
 
 **Prompt 2:**
 
