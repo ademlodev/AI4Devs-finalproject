@@ -70,6 +70,9 @@ basandote en el mismo diagrama @diagrama_infraestructura.md y en las categorias 
 ### **2.2. Descripción de componentes principales:**
 
 **Prompt 1:**
+Se realiza la petición en el chat 20250809 dentro de la carpeta .ai
+
+teniendo en cuenta el @Diagrama infraestructura.png, describe los componentes principales de la arquitectura definida
 
 **Prompt 2:**
 
@@ -78,6 +81,13 @@ basandote en el mismo diagrama @diagrama_infraestructura.md y en las categorias 
 ### **2.3. Descripción de alto nivel del proyecto y estructura de ficheros**
 
 **Prompt 1:**
+Con la creación del memory bank genera la estructura del proyecto
+
+### 🏗️ **Arquitectura:**
+
+- **Frontend:** React + Vite + Tailwind CSS + Vitest
+- **Backend:** Express + TypeScript + Jest
+- **Core:** TypeScript + Jest (para lógica de negocio compartida)
 
 **Prompt 2:**
 
