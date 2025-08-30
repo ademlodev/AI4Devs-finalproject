@@ -170,6 +170,8 @@ Generación del modelo de datos e implementado en la carpeta prisma de monorepo 
 
 **Prompt 1:**
 
+Generación de la especificación de la API e implementado en la carpeta prisma de monorepo backend. Chat con los prompts en el fichero 20250830_cursor_generate_datamodel.md
+
 **Prompt 2:**
 
 **Prompt 3:**

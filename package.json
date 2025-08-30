@@ -1,0 +1,16 @@
+{
+  "name": "AI4Devs-finalproject-JGA",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "core",
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "yarn install"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

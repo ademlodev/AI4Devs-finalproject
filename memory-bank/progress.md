@@ -13,6 +13,7 @@
 ## ¿Qué falta por construir?
 
 - ✅ ~~Modelado de datos y especificación de la API~~ - **COMPLETADO**
+- ✅ ~~Especificación completa de la API en Swagger/OpenAPI~~ - **COMPLETADO**
 - Prototipos de interfaz y experiencia de usuario.
 - Implementación del sistema de coincidencias y chat.
 - Procesos de verificación, reputación y moderación.
@@ -74,6 +75,25 @@
 - ✅ **Relaciones definidas** entre todas las entidades con claves foráneas apropiadas
 - ✅ **Campos especializados** como geolocalización, metadatos JSON, y enums para estados
 
+### 6. **Especificación completa de la API en Swagger/OpenAPI**
+
+- ✅ **Especificación OpenAPI 3.0.3** creada en `backend/core/swagger.yml`
+- ✅ **Endpoints de autenticación** completos (registro, login, refresh, logout, recuperación)
+- ✅ **Gestión de usuarios** con perfiles públicos y privados, preferencias
+- ✅ **Sistema de categorías** con subcategorías
+- ✅ **CRUD completo de productos/servicios** con búsqueda avanzada y filtros
+- ✅ **Sistema de matching** con sugerencias personalizadas y gestión de coincidencias
+- ✅ **Chat integrado** con conversaciones y mensajería en tiempo real
+- ✅ **Gestión de transacciones** con estados y seguimiento completo
+- ✅ **Sistema de calificaciones** y reseñas
+- ✅ **Notificaciones** push y en aplicación
+- ✅ **Sistema de reportes** y moderación
+- ✅ **Subida de archivos** e imágenes
+- ✅ **Esquemas de datos** detallados con validaciones
+- ✅ **Respuestas de error** estandarizadas
+- ✅ **Autenticación JWT** con bearer tokens
+- ✅ **Documentación completa** con ejemplos y descripciones
+
 ## 📁 Estructura final del monorepo:
 
 ```
@@ -106,10 +126,14 @@ AI4Devs-finalproject-JGA/
 │           ├── Home.tsx
 │           └── Home.test.tsx
 └── backend/
-    ├── package.json (Express, Jest)
+    ├── package.json (Express, Jest, Prisma)
     ├── tsconfig.json
     ├── jest.config.js
     ├── README.md
+    ├── core/
+    │   └── swagger.yml (Especificación OpenAPI completa)
+    ├── prisma/
+    │   └── schema.prisma (Modelo de datos completo)
     └── src/
         ├── index.ts
         └── __tests__/
@@ -125,8 +149,9 @@ AI4Devs-finalproject-JGA/
 
 ### Desarrollo:
 
-1. **Especificación de la API**: Crear endpoints basados en el modelo de datos
+1. ✅ ~~**Especificación de la API**: Crear endpoints basados en el modelo de datos~~ - **COMPLETADO**
 2. **Configuración de PostgreSQL**: Implementar migraciones y esquemas de base de datos
-3. **Prototipos de interfaz**: Diseñar wireframes y componentes principales
-4. **Implementación del sistema de coincidencias**: Desarrollar algoritmo de matching
-5. **Chat integrado**: Implementar WebSocket para mensajería en tiempo real
+3. **Implementación de la API**: Desarrollar controllers, services y middlewares
+4. **Prototipos de interfaz**: Diseñar wireframes y componentes principales
+5. **Implementación del sistema de coincidencias**: Desarrollar algoritmo de matching
+6. **Chat integrado**: Implementar WebSocket para mensajería en tiempo real
