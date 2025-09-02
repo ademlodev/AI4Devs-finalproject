@@ -182,6 +182,8 @@ Generación de la especificación de la API e implementado en la carpeta prisma 
 
 **Prompt 1:**
 
+Generados al generar el PRD. Chat con los prompts en el fichero 20250825_cursor_elaboraci_n_del_documento_de_req.md
+
 **Prompt 2:**
 
 **Prompt 3:**
@@ -191,6 +193,10 @@ Generación de la especificación de la API e implementado en la carpeta prisma 
 ### 6. Tickets de Trabajo
 
 **Prompt 1:**
+
+En el fichero 20250903_cursor_generar_tickets_a_partir_de_pica.md se detalla el proceso de generación de los tickets
+
+a partir del documento @PRD-TruequeAlo.md y del memory bank lee todas las epicas e historias de usuario para generar todos los tickets relacionados con el desarrollo.
 
 **Prompt 2:**
 
