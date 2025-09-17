@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
+  <diagram name="Lean Canvas Truequealo" id="0">
+    <mxGraphModel dx="1845" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Problem&#xa;-• Intercambio ineficiente sin coincidencia directa&#xa;-• Falta de confianza entre usuarios&#xa;-• Plataformas actuales con baja usabilidad" style="shape=swimlane;fillColor=#F8CECC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="-110" y="110" width="320" height="150" as="geometry">
+            <mxRectangle x="-10" y="110" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="Customer Segments&#xa;-• Personas con recursos limitados&#xa;-• Consumidores locales sostenibles&#xa;-• Usuarios interesados en economía circular" style="shape=swimlane;fillColor=#D5E8D4;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="210" y="110" width="280" height="150" as="geometry">
+            <mxRectangle x="240" y="110" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Unique Value Proposition&#xa;-• Plataforma intuitiva para trueque sin dinero&#xa;-• Match inteligente basado en intereses&#xa;-• Sistema de confianza y reputación integrado" style="shape=swimlane;fillColor=#FFF2CC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="490" y="110" width="350" height="150" as="geometry">
+            <mxRectangle x="490" y="110" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="Solution&#xa;-• Clasificación clara de productos y servicios&#xa;-• Algoritmo de coincidencia de ofertas y necesidades&#xa;-• Chat directo para negociar y cerrar intercambios&#xa;-• Sistema de reputación y validación de identidad" style="shape=swimlane;fillColor=#F8CECC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="-110" y="260" width="330" height="150" as="geometry">
+            <mxRectangle x="-10" y="260" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="Channels&#xa;-• Aplicación móvil (iOS/Android)&#xa;-• Web app&#xa;-• Redes sociales (promoción y comunidad)" style="shape=swimlane;fillColor=#D5E8D4;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="220" y="260" width="270" height="150" as="geometry">
+            <mxRectangle x="240" y="260" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Revenue Streams&#xa;-• Suscripción premium (más visibilidad, filtros avanzados)&#xa;-• Publicidad de negocios locales&#xa;-• Comisión sobre transacciones facilitadas (opcional)" style="shape=swimlane;fillColor=#DAE8FC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="490" y="260" width="350" height="150" as="geometry">
+            <mxRectangle x="490" y="260" width="250" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Cost Structure&#xa;-• Desarrollo y mantenimiento técnico&#xa;-• Servidores y almacenamiento&#xa;-• Marketing digital&#xa;-• Atención al cliente y moderación" style="shape=swimlane;fillColor=#DAE8FC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="-110" y="410" width="600" height="150" as="geometry">
+            <mxRectangle x="-10" y="410" width="375" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Key Metrics&#xa;-• Número de intercambios exitosos&#xa;-• Usuarios activos semanales&#xa;-• Tasa de match por publicación&#xa;-• Nivel de satisfacción y reputación media" style="shape=swimlane;fillColor=#FFF2CC;startSize=150;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="490" y="410" width="350" height="150" as="geometry">
+            <mxRectangle x="465" y="410" width="375" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Unfair Advantage&#xa;-• Sistema de coincidencia personalizado&#xa;-• Comunidad validada y reputación visible&#xa;-• UX ultra simplificada para usuarios no técnicos&#xa;-• Plataforma optimizada para economía local" style="shape=swimlane;fillColor=#E1D5E7;startSize=450;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="840" y="110" width="280" height="450" as="geometry">
+            <mxRectangle x="740" y="110" width="250" height="450" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
